@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jakka Rishi Kumar</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            color: white;
+            line-height: 1.6;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+
+        header {
+            background-color: #444;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 1200px;
+            background-color: #444;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.5s ease-out;
+        }
+
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+
+        p, ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Hover Effects */
+        h2:hover {
+            color: #45a049;
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4CAF50;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 24px;
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #4CAF50;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            section {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jakka Rishi Kumar</h1>
+    <p>Cybersecurity Enthusiast | Computer Science Student</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#internship">Internship</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+       I am an enthusiastic and dedicated Computer Science and Engineering student, specializing in cyber security and networking. I have been working since I am pursuing my Bachelor's degree via internships, academic projects, and online challenges. Real-life problem-solving gives me an unbeatable high, which is why I strive to learn more and more. With hands-on experience in cybersecurity, network security and ethical hacking,  I am driven to contribute meaningfully to the vitally evolving world of cybersecurity.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Bachelor of Technology in Computer Science and Engineering</strong> - Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Tamil Nadu (2021 – Present) | CGPA: 8.1/10.0</li>
+        <li><strong>Higher Secondary Education</strong> - Impulse Junior College, Telangana (2019 – 2021) | CGPA: 9.4/10.0</li>
+        <li><strong>Secondary Education</strong> - Sri Chaitanya Techno School, Telangana (2008 – 2019) | CGPA: 8.3/10.0</li>
+    </ul>
+</section>
+
+<section id="internship">
+    <h2>Internship Experience</h2>
+    <p><strong>Cyber Security Intern</strong> - CyberSec Infotech (Aug 2022 – Sep 2022)</p>
+    <p>
+        My internship experience comprised of working on securing networks by identifying vulnerabilities and scheming defense mechanisms to address threats. This has improved my comprehension of cybersecurity best practices and their practical implementations.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Key Projects</h2>
+    <ul>
+        <li><strong>Intrusion Detection System</strong> (Jan 2023 – May 2023)</li>
+        <p>
+            Designed an Intrusion Detection System built in a network for monitoring and analyzing
+            traffic for malicious activities. Added machine learning techniques in anomaly detection
+            that can identify zero-day attacks and evolving threats. As for the implementation, there 
+            is signature-based detection using Snort and anomaly-based detection with ML algorithms in 
+            Python. Improvised alert mechanisms with email and log-based notifications. Covered real-time 
+            unauthorized access and possible exploits in an enterprise network.
+        </p>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: Python</li>
+        <li>Operating Systems: Kali Linux, Microsoft Windows</li>
+        <li>Web Technologies: HTML</li>
+        <li>Networking & Information Security: Networking, Ethical Hacking, Security Protocols</li>
+    </ul>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>CCNA – Certificate of Introduction to Networks</li>
+        <li>CISCO – Certificate of Introduction to Cybersecurity</li>
+        <li>MENDIX – Certified in Mendix Rapid Developer</li>
+        <li>TECHNOOK – Certificate in Cyber Security</li>
+    </ul>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Solved 20+ coding challenges across various platforms like HackerRank, HackerEarth, and LeetCode.</li>
+        <li>Actively participate in coding challenges, cybersecurity forums, and ongoing professional development to stay updated with the latest trends and technologies.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Do contact me through e-mail or through github or LinkedIn!</p>
+    <div class="contact-info">
+        <div>Email: <a href="mailto:rishijakka18@gmail.com">rishijakka18@gmail.com</a></div>
+        <div>LinkedIn: <a href="https://www.linkedin.com/in/rishi-kumar-jakka-090016256" target="_blank">rishi-kumar-jakka-090016256</a></div>
+        <div>GitHub: <a href="https://github.com/Rishikumar-cyber" target="_blank">Rishikumar-cyber</a></div>
+    </div>
+</section>
+
+<section class="social-icons">
+    <a href="https://www.linkedin.com/in/rishi-kumar-jakka-090016256" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Rishikumar-cyber" target="_blank">GitHub</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Jakka Rishi Kumar. All Rights Reserved.</p>
+</footer>
+
+<script>
+    // Add the "visible" class to sections as they come into view
+    window.addEventListener("scroll", function() {
+        const sections = document.querySelectorAll("section");
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight) {
+                section.classList.add("visible");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
